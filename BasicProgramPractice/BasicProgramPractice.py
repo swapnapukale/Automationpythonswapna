@@ -82,12 +82,26 @@
 
 #Python program to get the factorial of the given number.
 
-num1 = int(input((" enter number \n")))
-fact = 1
-if num1 >0 :
-    num1 = num1*fact
-    num1 = num1-1
-print("factoral num", fact)
+# num1 = int(input((" enter number \n")))
+# fact = 1
+# if num1<0:
+#     print(" num is negative")
+# else:
+#    for i in range(1,num1+1):
+#        fact = fact*i
+#
+#    print(" factorial of num is", num1, "is",fact)
+
+
+
+number = input("Enter a number: ")
+
+# Reverse the string using slicing
+reversed_number = number[::-1]
+
+# Print the reversed number
+print("The reversed number is:", reversed_number)
+
 
 
 
